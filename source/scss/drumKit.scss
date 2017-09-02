@@ -1,0 +1,37 @@
+html {
+    body {
+        margin: 0;
+        font-size: 20px;
+        font-family: sans-serif;
+        background-color: rgba(231, 225, 225, 1.00);
+        .container {
+            display: flex;
+            flex: 1;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+            .key {
+                margin: 10px;
+                text-align: center;
+                border: 0.1vh solid white;
+                border-radius: 1vh;
+                transition: all .07s ease;
+                kbd {
+                    display: inline-block;
+                    width: 100%;
+                }
+                .sound {
+                    font-size: 1.2rem;
+                    text-transform: uppercase;
+                    letter-spacing: .1rem;
+                    color: #ffc600;
+                }
+            }
+            .playing {
+                transform: scale(1.1);
+                border-color: #ffc600;
+                box-shadow: 0 0 1rem #ffc600;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+html {
+  text-align: center; }
+  html body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e7e1e1; }
+    html body .clock {
+      width: 500px;
+      height: 500px;
+      padding: 25px;
+      border: 5px solid white;
+      border-radius: 50%;
+      background-color: #61d0d4; }
+      html body .clock .clock-face {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        -webkit-transform: translateY(-3px);
+            -ms-transform: translateY(-3px);
+                transform: translateY(-3px); }
+        html body .clock .clock-face .hand {
+          position: absolute;
+          top: 50%;
+          width: 50%;
+          height: 3px;
+          background-color: black;
+          -webkit-transform-origin: 100%;
+              -ms-transform-origin: 100%;
+                  transform-origin: 100%;
+          -webkit-transform: rotate(90deg);
+              -ms-transform: rotate(90deg);
+                  transform: rotate(90deg);
+          -webkit-transition: all 0.01s;
+          -o-transition: all 0.01s;
+          transition: all 0.01s;
+          -webkit-transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+               -o-transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+                  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1); }
+        html body .clock .clock-face .house-hand {
+          width: 50%; }
+
+/*# sourceMappingURL=clock.css.map */

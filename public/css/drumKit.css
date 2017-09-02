@@ -1,0 +1,44 @@
+html body {
+  margin: 0;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: #e7e1e1; }
+  html body .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    min-height: 100vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    html body .container .key {
+      margin: 10px;
+      text-align: center;
+      border: 0.1vh solid white;
+      border-radius: 1vh;
+      -webkit-transition: all .07s ease;
+      -o-transition: all .07s ease;
+      transition: all .07s ease; }
+      html body .container .key kbd {
+        display: inline-block;
+        width: 100%; }
+      html body .container .key .sound {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        color: #ffc600; }
+    html body .container .playing {
+      -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+              transform: scale(1.1);
+      border-color: #ffc600;
+      -webkit-box-shadow: 0 0 1rem #ffc600;
+              box-shadow: 0 0 1rem #ffc600; }
+
+/*# sourceMappingURL=drumKit.css.map */
